@@ -14,11 +14,13 @@ public class GameApplication {
 		Knight knight = new Knight();
 		Berserk berserk = new Berserk();
 
+		System.out.println("Берсерк атакует рыцаря");
 		berserk.attack(knight);
-		System.out.println(knight.getHealth());
+		System.out.println("Здоровье рыцаря после атаки " + knight.getHealth());
 
+		System.out.println("Рыцарь лечится");
 		knight.healing(50.0);
-		System.out.println(knight.getHealth());
+		System.out.println("Здоровье рыцаря после лечения " + knight.getHealth());
 	}
 
 }
