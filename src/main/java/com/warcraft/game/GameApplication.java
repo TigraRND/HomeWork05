@@ -16,6 +16,9 @@ public class GameApplication {
 
 		berserk.attack(knight);
 		System.out.println(knight.getHealth());
+
+		knight.healing(50.0);
+		System.out.println(knight.getHealth());
 	}
 
 }
