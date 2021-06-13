@@ -29,6 +29,8 @@ public class GameApplication {
 		System.out.println("Берсерк лучник атакует берсеркра с топором");
 		archer.attack(berserk);
 		System.out.println("Здоровье берсеркра после атаки луком " + berserk.getHealth());
+
+
 	}
 
 }
